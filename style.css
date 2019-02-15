@@ -1,7 +1,7 @@
 html, body {
   text-align:center;
-  background:#49B4B8;
-  font-family: 'Courgette', cursive;
+  background:#B4B8C5;
+  font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
 .centerFlex{
@@ -11,12 +11,11 @@ html, body {
 #header{
   display:flex;
   position:fixed;
-  width:80vw;
-  align-items:baseline;
-  background-color:#5F1111;
+  width:100%;
+  background-color:#012A36;
   top:0;
-  border-radius:0px 0px 8px 8px;
   align-items: center;
+  height:80px;
 }
 .navBox{
   display:flex;
@@ -28,17 +27,20 @@ html, body {
   flex:2;
 }
 #nav-bar a{
-  color: white;
+  color: #E9EBF8;
+  text-decoration:none;
+}
+#nav-bar a:hover{
+  color: #A4A8B4;
 }
 h1 {
-  font-family: 'Courgette', cursive;
-  margin-top:7vw;
-  margin-bottom:5vw;
+  color:#012A36;
+  margin-top:120px;
 }
 .fa {
     padding: 12px;
     font-size: 30px;
-    width: 50px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
     border-radius:5%;
@@ -59,7 +61,7 @@ h1 {
     color: white;
 }
 #video{
-  border:solid #5F1111 5px;
+  border:solid #A4A8B4 5px;
   border-radius:5px;
   margin:5vw;
 }
@@ -68,7 +70,7 @@ h1 {
 }
 .imgGrid img{
   margin:10px;
-  border:#5F1111 solid 5px;
+  border:#A4A8B4 solid 5px;
   border-radius:5px;
 }
 .imgGrid{
@@ -81,13 +83,13 @@ h1 {
   
 }
 #form{
-  background:#5F1111;
-  width:20vw;
+  background:#012A36;
+  width:30vw;
   padding:10px;
   border-radius:5px;
   display:flex;
   flex-direction:column;
-  height:10vw;
+  height:140px;
   align-items:center;
   margin:5vw;
 }
@@ -99,7 +101,7 @@ form a {
   color:white;
 }
 #email {
-  background-color:#49B4B8;
+  background-color:#5D777F;
   color:red;
   border:none;
   border-radius:1px;
@@ -111,6 +113,6 @@ form a {
 }
 @media (max-width:800px){
   #header{
-    background:blue;
+
   }
 }
