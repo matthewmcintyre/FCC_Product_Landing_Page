@@ -2,6 +2,7 @@ html, body {
   text-align:center;
   background:#49B4B8;
   font-family: 'Courgette', cursive;
+  scroll-behavior: smooth;
 }
 .centerFlex{
   display:flex;
