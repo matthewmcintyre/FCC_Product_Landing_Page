@@ -83,7 +83,7 @@ h1 {
 }
 #video-section{
   margin-top:50px;
-  margin-bottom:50px;
+  margin-bottom:-50px;
 }
 #header-img{
   height:70px;
@@ -108,8 +108,22 @@ h1 {
   border:#A4A8B4 solid 5px;
   border-radius:5px;
 }
-#someText{
-  
+#aboutUs{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+}
+#aboutUsText{
+  text-align:left;
+  width:80%;
+  background:#9497A2;
+  border-radius:5px;
+  padding:10px;
+}
+#aboutUsText ul{
+  float:left;
+  margin-left:30px;
+  margin-top:20px;
 }
 #form{
   background:#012A36;
@@ -132,7 +146,7 @@ form a {
 }
 #email {
   background-color:#5D777F;
-  color:red;
+  color:black;
   border:none;
   border-radius:1px;
   width:100%;
